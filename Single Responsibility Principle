@@ -108,3 +108,9 @@ public class SRP {
         System.out.println("Department: " + employee.getDepartment());
     }
 }
+/**
+ * This Java program demonstrates the Single Responsibility Principle (SRP) by defining an  Employee class 
+ * responsible for representing employee data and a SRP class responsible for printing employee details. 
+ * The  Employee class encapsulates employee information such as name, salary, and department, while the 
+ * SRP class separates the concerns of creating an employee and printing employee details into separate methods.
+ */
