@@ -139,3 +139,9 @@ public class LSP {
         System.out.println("Square Area: " + squareArea);
     }
 }
+/**
+ * This Java program demonstrates the Liskov Substitution Principle (LSP) by defining 
+ * geometric shapes (Rectangle and Square) inheriting from a common superclass (Shape). 
+ * Each shape calculates its area independently.The  AreaCalculator class utilizes 
+ * the  Shape interface to calculate the area of any shape passed to it.
+ */
