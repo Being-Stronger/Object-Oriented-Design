@@ -158,3 +158,8 @@ public class ISP {
         user.useFax(multiFunctionMachine, "Faxing test document");
     }
 }
+/**
+ * This Java program demonstrates the Interface by scanning and faxing operations, and providing implementations for printing, scanning, and faxing functionalities. 
+ * The  User class represents a user who interacts with different devices such as printers, scanners, and fax 
+ * machines through their respective interfaces.
+ */
