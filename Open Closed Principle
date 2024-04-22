@@ -107,3 +107,8 @@ public class OCP {
         System.out.println("Circle Area: " + circleArea);
     }
 }
+/**
+ * This Java program demonstrates the Open/Closed Principle (OCP) by defining a Shape interface 
+ * to calculate the area of different shapes. It includes concrete implementations for  Rectangle
+ * and  Circle shapes, each adhering to the  Shape interface.
+ */
