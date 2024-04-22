@@ -84,4 +84,16 @@ public class DIP {
         smsNotificationService.sendNotification("Hello, this is an SMS notification!");
     }
 }
+/**
+ * Its defining interfaces (MessageService) for sending messages and providing concrete implementations (SMSService, EmailService).
+ * The  NotificationServic class encapsulates the mechanism for sending notifications using a 
+ * specified message service, following DIP by depending on abstractions. The  DIP class demonstrates 
+ * the usage of low-level modules (SMSService and EmailService) and high-level modules (NotificationService) 
+ * with different implementations injected, showcasing adherence to the Dependency Inversion Principle.
+ */
+
+
+
+
+
 
